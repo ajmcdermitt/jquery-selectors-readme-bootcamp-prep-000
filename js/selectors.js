@@ -17,3 +17,8 @@ function divSelector(){
   var sel = $('.pics');
   return sel;
 }
+
+function firstListItem(){
+  var first = $('#pic-list ul:firstListItem');
+  return first;
+}
